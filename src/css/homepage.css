@@ -1,0 +1,120 @@
+
+.bg{
+    background-image: url('../img/bg1.svg');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.container{
+    width: 400px;
+    background-image: url('../img/bg2.png');
+    height: 600px;
+    position: absolute;
+    background-position:center;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.container1{
+    position: absolute;
+    /* width: 60%; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+  }
+
+  .Add_Box{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(17, 82, 82);
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .Add_Box > input{
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  .Add_Box > button{
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+  }
+  .Add_Box > div > label{
+    padding: 10px 20px 10px 5px;
+  }
+h1{ margin-left: 0.4in;}
+.check{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+.dash{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pi{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 80px;
+
+}
+input{
+    margin-top: 10px ;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    width: 3in;
+    border-bottom: solid 1px #616161;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    width: 400px;
+    bottom:0%;
+    border-radius: 100% 0% 0% 0% / 55% 0% 0% 0%;
+    background-color: white;
+    position: absolute;
+}
+.areaform{
+    display: flex;
+    flex-direction: column;
+}
+img{width: 2.5in; height: 2in;}
+.ig{position: absolute;margin-left: 50%;
+    animation-name: ani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+button{
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: blueviolet;
+    border-radius: 20px;
+    cursor: pointer;
+}
+@keyframes ani{
+    0% {top: 15%;}
+    50%{top: 20%;}
+    100% {top: 15%;} 
+}
